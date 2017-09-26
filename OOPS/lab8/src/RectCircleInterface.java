@@ -21,7 +21,7 @@
  */
 
 interface Shape2{
-    abstract void area();
+    void area();
     
 }
 class Rectangle2 implements Shape2{
@@ -54,9 +54,9 @@ class Triangle2 implements Shape2{
 public class RectCircleInterface {
         public static void main(String[] args) {
         
-        Rectangle r = new Rectangle(1,2);
+        Rectangle2 r = new Rectangle2(1,2);
         r.area();
-        Triangle t = new Triangle(3,4);
+        Triangle2 t = new Triangle2(3,4);
         t.area();
     }
 }
